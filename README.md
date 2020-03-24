@@ -1,14 +1,14 @@
 # COVID-19-Datata-Analysis
 
-This project is part of The short cuts's python for datanalysis training program .
-In this project, we will analyze the spread of the new corona virus (nCov). We will use two datasets:
+This project is part of The shortcut's python for data analysis training program .
+In this project, I analyzed the spread of the new corona virus (nCov). 
 
-- The John Hopkins University's dataset which contains aggregated daily data for confirmed cases, deaths and recovered patients. 
+- I was given the John Hopkins University's dataset which contains aggregated daily data for confirmed cases, deaths and recovered patients. 
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
 
-Since the John Hopkins dataset contains only aggregated data, we need to transform it into a format that allows us to answer more questions. You can see the ideal dataframe structure in the picture below.
+Since the John Hopkins dataset contains only aggregated data, I needed to transform it into a format that allows me to answer more questions. I was given the ideal dataframe structure in picture .
 
-I followed  the following instructions given by by the instractor.
+I followed  the following instructions given by the instractor.
 - Stack the dataframe so that each row represents one date in a location. 
 - Remove the rows where the cumulative number of cases is zero.
 - Make a new column `location` to combine `prov_state` and `country`.
